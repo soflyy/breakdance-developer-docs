@@ -7,7 +7,7 @@
 
 ## Overview
 
-Conditions can be created using the `breakdance_register_template_types_and_conditions` and the `Unicorn\ElementDisplayConditionsAPI\register` function.
+Conditions can be created using the `breakdance_register_template_types_and_conditions` action hook and the `Unicorn\ElementDisplayConditionsAPI\register` function.
 
 ## Element Display Conditions
 
