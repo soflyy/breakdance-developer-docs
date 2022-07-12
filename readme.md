@@ -1,3 +1,3 @@
-The Breakdance Developer Documentation contains information for developers who wish to create addons for Breakdance.
+This repository contains documentation for Breakdance's public APIs.
 
 - [Conditions API](/conditions/readme.md)
