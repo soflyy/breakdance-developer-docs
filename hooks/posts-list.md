@@ -11,5 +11,4 @@ Available hooks:
 - breakdance_posts_list_inside_wrap_end
 - breakdance_posts_list_after_post
 - breakdance_posts_list_after_loop
-- breakdance_posts_list_before_pagination
 - breakdance_posts_list_after_pagination
