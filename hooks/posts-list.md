@@ -1,3 +1,7 @@
+## Posts List element hooks
+
+Various hooks are available to inject HTML output into the Breakdance Posts List element
+
 Available hooks:
 
 - breakdance_posts_list_before_loop
