@@ -1,4 +1,4 @@
-- breakdance_shape_dividers filter
+## breakdance_shape_dividers
 
 ```php
 add_filter('breakdance_shape_dividers', function ($dividers) {
