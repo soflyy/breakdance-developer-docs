@@ -8,12 +8,12 @@ add_action("breakdance_after_save_document", function ($postId) {
 
 ## breakdance_register_font
 
-Example - disable all Google Fonts:
-
 ```php
 add_filter("breakdance_register_font", function ($font) {
-    $isGoogleFont = !!$font['dependencies']['googleFonts'];
 
+    // disable all Google Fonts
+    $isGoogleFont = !!$font['dependencies']['googleFonts'];
+    
     if ($isGoogleFont) {
         return false;
     }
