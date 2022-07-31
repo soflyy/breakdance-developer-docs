@@ -6,7 +6,7 @@ add_action(
     'breakdance_register_template_types_and_conditions',
     function() {
     
-        \Unicorn\ConditionsAPI\register(
+        \Breakdance\ConditionsAPI\register(
             [
                 'supports' => ['element_display'],
                 'slug' => 'unique-prefix-my-condition', // MUST BE UNIQUE
