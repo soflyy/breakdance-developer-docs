@@ -1,3 +1,14 @@
+## breakdance_singular_content
+
+add_filter("breakdance_singular_content", function ($content) {
+    if ($something) {
+        return $content;
+    } else {
+        return "not authorized";
+    }
+});
+
+
 ## breakdance_after_save_document
 
 ```php
