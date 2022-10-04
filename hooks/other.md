@@ -44,3 +44,37 @@ add_filter("breakdance_append_dependencies", function ($dependenciesToAppend) {
     return $dependenciesToAppend;
 });
 ```
+
+## breakdance_element_classnames_for_html_class_attribute
+```php
+add_filter('breakdance_element_classnames_for_html_class_attribute',
+    // always add a class for a specific element
+    function ($classesArg, $elementSlug, $props) use ($supportedElements) {
+        if ($elementSlug === 'my_custom_element') {
+            $classesArg[] = 'my_special_class';
+
+            return $classesArg;
+        }
+
+        return $classesArg;
+    },
+);
+```
+
+
+## breakdance_query_control_query
+```php
+add_filter('breakdance_query_control_query',
+    // force all queries to always show 6 results
+    function($query) {
+        if (is_string($query)){
+            return $query . "&posts_per_page=6";
+        }
+
+        $query['posts_per_page'] = '6';
+
+    return $query;
+});
+```
+
+
