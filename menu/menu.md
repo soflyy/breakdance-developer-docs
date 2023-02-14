@@ -98,7 +98,7 @@ Determine wheter the menu is showing the mobile version.
 ### isVertical()
 
 ```typescript
-isMobile() => boolean
+isVertical() => boolean
 ```
 
 Determine whether the menu is set to be displayed vertically.
