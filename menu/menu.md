@@ -85,7 +85,7 @@ Open or close the mobile menu. Returns as promise that is fullfilled once the an
 isDesktop() => boolean
 ```
 
-Determine wheter the menu is showing the desktop version.
+Determine whether the menu is showing the desktop version.
 
 ### isMobile()
 
@@ -93,7 +93,7 @@ Determine wheter the menu is showing the desktop version.
 isMobile() => boolean
 ```
 
-Determine wheter the menu is showing the mobile version.
+Determine whether the menu is showing the mobile version.
 
 ### isVertical()
 
