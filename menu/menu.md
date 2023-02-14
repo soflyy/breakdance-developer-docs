@@ -76,7 +76,7 @@ Refresh all dropdown menus. It recalculates the open dropdown width and aligns e
 toggleMobileMenu() => Promise<void>
 ```
 
-Open or close the mobile menu. Returns as promise that is fullfilled once the animation has ended.
+Open or close the mobile menu. Returns as promise that is resolved once the animation has ended.
 
 
 ### isDesktop()
