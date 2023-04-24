@@ -34,6 +34,8 @@ add_action('breakdance_external_dependencies_urls', function ($urls) {
 });
 ```
 
-> > Note
-> > You don't need to register an external dependency if you don't want to reuse it in other elements in Element Studio.
-> > You can just use the URL directly in your element.
+By doing so, you will also need to update the ScrollTrigger version to match the GSAP version.
+
+> Note
+> You don't need to register an external dependency if you don't want to reuse it in other elements in Element Studio.
+> You can just use the URL directly in your element.
