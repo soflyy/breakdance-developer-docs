@@ -1,15 +1,15 @@
 
-Breakdance AI Source Configuration
+Breakdance AI Endpoints
 ===
-Breakdance AI has several filters you can use to change the model or service being used for Breakdance AI. 
+Breakdance AI has several filters you can use to change the model or provider being used for Breakdance AI. 
 
-When using these filters is that the information found at Breakdance > Settings > AI Assistant in WP-Admin will not change. You will want to check the developer's console and the usage charts for your service to verify everything is working correctly. 
+When using these filters is that the information found at Breakdance > Settings > AI Assistant in WP-Admin will not change. You will want to check the developer's console and the usage charts for your provider to verify everything is working correctly. 
 
-Additionally, you will add your API Key for your desired AI service to the "OpenAI API Key" input area located at Breakdance > Settings > AI Assistant in WP-Admin. Breakdance will use the API key found here for whatever endpoint is set.
+Additionally, you will add your API Key for your desired AI provider to the "OpenAI API Key" input area located at Breakdance > Settings > AI Assistant in WP-Admin. Breakdance will use the API key found here for whatever endpoint is set.
 
 ## Filters
 - `breakdance_ai_model` - this filter allows you to define the model that Breakdance AI will use.
-- `breakdance_ai_api_endpoint` - this filter lets you change the AI service endpoint used for Breakdance AI. 
+- `breakdance_ai_api_endpoint` - this filter lets you change the AI provider endpoint used for Breakdance AI. 
 
 ## Examples
 Here are some examples for how to change AI Models. 
