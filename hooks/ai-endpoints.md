@@ -10,6 +10,7 @@ Additionally, you will add your API Key for your desired AI provider to the "Ope
 ## Filters
 - `breakdance_ai_model` - this filter allows you to define the model that Breakdance AI will use.
 - `breakdance_ai_api_endpoint` - this filter lets you change the AI provider endpoint used for Breakdance AI. 
+- `breakdance_ai_enabled` = this filter lets you choose whether or not Breakdance AI is viaible within Breakdance. 
 
 ## Examples
 Here are some examples for how to change AI Models. 
@@ -54,3 +55,10 @@ add_filter('breakdance_ai_model', 'override_breakdance_ai_model', 10, 2);
 
 **Step 3: Add our API Key**
 Next, we need to create an API Key with OpenRouter. Once the key is created, we're going to add it to Breakdance > Settings > AI Assistant in WP-Admin and paste it into the "OpenAI API Key" input area.
+
+### Example 3: Disable Breakdance AI
+To disable Breakdance AI entirely within Breakdance, use the `breakdance_ai_enabled` hook: 
+
+```php
+add_filter('breakdance_ai_enabled', '__return_false');
+```
