@@ -10,7 +10,7 @@ Additionally, you will add your API Key for your desired AI provider to the "Ope
 ## Filters
 - `breakdance_ai_model` - this filter allows you to define the model that Breakdance AI will use.
 - `breakdance_ai_api_endpoint` - this filter lets you change the AI provider endpoint used for Breakdance AI. 
-- `breakdance_ai_enabled` = this filter lets you choose whether or not Breakdance AI is viaible within Breakdance. 
+- `breakdance_ai_enabled` - this filter lets you choose whether or not Breakdance AI is viaible within Breakdance. 
 
 ## Examples
 Here are some examples for how to change AI Models. 
