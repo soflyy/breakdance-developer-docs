@@ -57,7 +57,7 @@ The `$field` parameter contains:
 ```php
 add_filter('breakdance_form_validate_field', function($fieldErrors, $field, $formId, $postId) {
     // Validate phone number format
-    if ($field['type'] === 'phone' && !empty($field['value'])) {
+    if ($field['type'] === 'tel' && !empty($field['value'])) {
         if (!preg_match('/^\d{10}$/', $field['value'])) {
             $fieldErrors->add(
                 'invalid_phone',
