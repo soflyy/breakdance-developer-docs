@@ -2,7 +2,7 @@
 
 The `breakdance_form_validate_field` filter hook allows third-party developers to add custom validation logic to Breakdance form fields. This hook is called for each field during form submission validation, enabling you to implement custom validation rules beyond the built-in validation.
 
-**Note**: Requires Breakdance X.X+.
+**Note**: Requires Breakdance 2.8+.
 
 ## Location
 
@@ -312,10 +312,6 @@ Errors added through this hook will be displayed to users along with other form 
 
 - `breakdance_form_run_action_{action_slug}` - Control whether a specific form action should run
 - `breakdance_form_honeypot_triggered` - Triggered when honeypot spam protection is triggered
-
-## Changelog
-
-- **v1.0** - Hook introduced
 
 ## Support
 
